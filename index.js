@@ -5,7 +5,7 @@ function redirectAction() {
     //var suspect_lower = suspect.toLowerCase();
     //var trimmed_suspect = suspect_lower.trim();
     //var suspect_submit = trimmed_suspect.replace(/\s+/g, '-');
-    
-    window.location.replace("https://unityamira.github.io/Webscraping-Tutorial/accuse/Miss-Scarlet");
+    href="accuse/Miss-Scarlet.html"
+    window.location.href(href);
     form.submit();
   }
