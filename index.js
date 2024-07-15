@@ -6,6 +6,6 @@ function redirectAction() {
     //var trimmed_suspect = suspect_lower.trim();
     //var suspect_submit = trimmed_suspect.replace(/\s+/g, '-');
     
-    location.assign("https://unityamira.github.io/Webscraping-Tutorial/accuse/Miss-Scarlet");
+    window.location.replace("https://unityamira.github.io/Webscraping-Tutorial/accuse/Miss-Scarlet");
     form.submit();
   }
